@@ -1,0 +1,14 @@
+button{
+    background-color: rgb(145, 241, 174);
+    color: rgb(16, 9, 75);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-left: 5px; 
+
+
+}

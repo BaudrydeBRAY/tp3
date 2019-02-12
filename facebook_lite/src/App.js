@@ -65,7 +65,7 @@ const FicheProfil3 = {
 
 
 class App extends Component {
-
+/*
 state={
   nom: "de BRAY",
   prenom: "Baudry",
@@ -77,23 +77,6 @@ state={
 
 }
 
-/*
-gestionProfil1=()=>{
-
-  this.setState({
-    nom: "de BRAY",
-    prenom: "Baudry",
-    date: "03/10/1997",
-    image: {
-      src: require ('./Centurion.jpg'),
-      alt: "Centurion"
-    }
-  
-
-  });
-
-}
-*/
 
 gestionProfil1=()=>{
 
@@ -109,9 +92,11 @@ gestionProfil1=()=>{
    }
   });
 
+  }
+*/
 
 
-}
+
 
   render() {
     return (
@@ -119,24 +104,19 @@ gestionProfil1=()=>{
   
         <h1>Facebook Lite !</h1>
         <Test />
-        <Menu gestionProfil1={this.gestionProfil1}/>
+        <Menu />
         
-        {/* <Profil Nom={this.state.Nom} /> */}
-        <Profil ficheProfiltData={FicheProfil1} gestionProfil1={this.gestionProfil1} />
 
-    {/*    <Profil ficheProfiltData={FicheProfil1}  />
-        
-        
+        <Profil ficheProfiltData={FicheProfil1}  />  
         <Profil ficheProfiltData={FicheProfil2}  />
         <Profil ficheProfiltData={FicheProfil3}  />
-    */}
 
-{/*
-        <Publication publicationData={Publication1} />
-        
+
+
+        <Publication publicationData={Publication1} />   
         <Publication publicationData={Publication2} />
         <Publication publicationData={Publication3} />
-    */}
+
 
 
 

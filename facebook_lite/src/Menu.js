@@ -17,7 +17,7 @@ class Menu extends React.Component {
     return (
       <div>
           
-        <button className="Bouton1" onClick={this.props.gestionProfil1}> {/* alert('Vous allez passer au Profil de Baudry de BRAY')*/}
+        <button className="Bouton1" onClick={() =>alert('Vous allez passer au Profil de Baudry de BRAY')}>
             Baudry de BRAY {this.props.value}
         </button>
         <button className="Bouton2" onClick={() => alert('Vous allez passer au Profil de Mathieu DJELLALI')}>

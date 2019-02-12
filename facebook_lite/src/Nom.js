@@ -8,8 +8,7 @@ class Nom extends Component {
 
     return (
       <div>
-        <h4>{this.props.Nom}</h4>
-        {/*<h4>{nom}</h4>*/}
+        <h4>{nom}</h4>
       </div>
     );
   }

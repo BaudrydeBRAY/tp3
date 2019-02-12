@@ -1,0 +1,13 @@
+.BoutonChangeStyle {
+    background-color: rgb(153, 158, 207);
+    color: rgb(56, 9, 75);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 1px;
+    margin: auto;
+    display:block;
+	
+}
