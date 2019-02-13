@@ -3,9 +3,10 @@
     margin: 50px;
     padding: 5px;
     border: 1px solid black;
+
   }
   
-  .button {
+button {
     background-color: rgb(153, 158, 207);
     color: rgb(56, 9, 75);
     padding: 10px 20px;
@@ -15,7 +16,9 @@
     font-family: 'Oxygen', sans-serif;
     letter-spacing: 1px;
     margin: auto;
+    margin-bottom: 30px;
     display:block;
+
 	
 }
 

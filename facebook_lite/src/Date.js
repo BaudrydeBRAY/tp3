@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./Date.css"
 
 class Date extends Component {
   render() {
@@ -6,7 +7,7 @@ class Date extends Component {
 
     return (
       <div>
-        <h4>{date}</h4>
+        <h4 className="Date">{date}</h4>
       </div>
     );
   }
