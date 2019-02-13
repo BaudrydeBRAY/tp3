@@ -116,7 +116,7 @@ gestionProfil1=()=>{
         <Publication publicationData={Publication1} />   
         <Publication publicationData={Publication2} />
         <Publication publicationData={Publication3} />
-
+   
 
 
 
