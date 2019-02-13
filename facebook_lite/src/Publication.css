@@ -5,3 +5,24 @@
     border: 1px solid black;
   }
   
+ 
+  .BoutonLike{
+    float: left;
+    margin-left: 50px;
+    background-color: lightblue;
+    color: yellow;
+  }
+
+  .NBLike{
+    margin-right: 350px;
+    color: rgb(245, 28, 227);
+  }
+
+ 
+
+  .ImageLike{
+
+    width: 18px;
+    height: 18px;
+
+  }
